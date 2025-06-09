@@ -22,7 +22,7 @@ tasks.torch_safe_load = patched_torch_safe_load
 # -------------------------------------------------------------
 
 # Load the YOLOv8 model (your trusted model file path)
-model_path = r"C:\Users\Muhammed Abdullahi O\Desktop\Corporate Wear Detection System Main File\train2\content\runs\detect\train2\weights\best.pt"
+model_path = "\train2\content\runs\detect\train2\weights\best.pt"
 model = YOLO(model_path)
 
 st.title("YOLOv8 Clothing Detection App")
